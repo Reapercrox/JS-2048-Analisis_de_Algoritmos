@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Diseño del area de juego o bien el tablero del jeugo*/
+#juego{
+    width: 400px;
+    height:400px;
+
+    margin: 0 auto;
+    background-color: #6CC7EA;
+    border: 6px solid #404DD0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Clase de los espacios de juego o fichas en todo caso*/
+.espacio{
+    width: 90px;
+    height: 90px;
+
+    border: 5px solid #404DD0;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.e2{
+    background-color: #61a9e9;
+    color: #1500fa;
+}
+
+.e4{
+    background-color: #42d3e0;
+    color: #0163f5; 
+}
+
+.e8{
+    background-color: #44beae;
+    color: #02c6f7;
+}
+
+.e16{
+    background-color: #00f074;
+    color: #ffffff;
+}
+
+.e32{
+    background-color: #00fa04;
+    color: #ffffff;
+}
+
+.e64{
+    background-color: #b3ff00;
+    color: #ffffff;
+}
+
+.e128{
+    background-color: #fbff00;
+    color: #ffffff;
+}
+
+.e256{
+    background-color: #ffb300;
+    color: #ffffff;
+}
+
+.e512{
+    background-color: #ff8000;
+    color: #ffffff;
+}
+
+.e1024{
+    background-color: #ff2a00;
+    color: #ffffff;
+}
+
+.e2048{
+    background-color: #1100ff;
+    color: #ffffff;
+}
+
+.e4096{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.e8192{
+    background-color: #000000;
+    color: #ffffff;
+}
