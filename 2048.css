@@ -1,6 +1,17 @@
 body{
     font-family: Arial, helvetica, sans-serif;
     text-align: center;
+
+    background-color: cyan;
+}
+
+body:hover{
+    background-color: rgb(218, 164, 27);
+    transition: background-color 2s linear;
+}
+
+hr {
+    width: 700px;
 }
 
 /*Diseño del area de juego o bien el tablero del jeugo*/
@@ -8,22 +19,28 @@ body{
     width: 400px;
     height:400px;
 
-    margin: 0 auto;
+    
     background-color: #6CC7EA;
-    border: 6px solid #404DD0;
+    border: 8px double #404DD0;
+
+    border-radius: 6px;
+
+    margin: 0 auto;
 
     display: flex;
+
     flex-wrap: wrap;
+
 }
 
 /*Clase de los espacios de juego o fichas en todo caso*/
-.espacio{
+.espacio {
     width: 90px;
     height: 90px;
 
     border: 5px solid #404DD0;
 
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 
     display: flex;
@@ -33,6 +50,8 @@ body{
     align-items: center;
 
 }
+
+/*INICIO DE LOS COLORES DE LAS CASILLAS*/
 
 .e2{
     background-color: #61a9e9;
@@ -98,3 +117,5 @@ body{
     background-color: #000000;
     color: #ffffff;
 }
+
+/*FIN DE COLORES DE LAS CASILLAS*/
